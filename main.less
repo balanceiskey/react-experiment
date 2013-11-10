@@ -1,0 +1,62 @@
+/* COLORS */
+@gray: #E0E0E0;
+@text: #B4B4B4;
+
+body{
+  width: 960px;
+
+  padding: 20px;
+  margin: 0 auto;
+
+  background: @gray;
+
+  color: @text;
+  font-family: "Proxima Nova";
+}
+
+h1{
+  font-size: 65px;
+  line-height: 1.2em;
+  border-bottom: #CCC solid 1px;
+  padding: 20px 0;
+}
+
+h3{
+  font-weight: 300;
+}
+
+.Pillow {
+    width: 960px;
+    background: white;
+    border-radius: 5px;
+    padding: 40px 50px;
+}
+
+.StatRow {
+    width: 50%;
+    cursor: pointer;
+
+    padding: 10px 0px;
+
+    border-top: 1px solid @gray;
+    
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 2px;
+
+    span {
+        display: inline-block;
+        float: right;
+        margin-right: 30px;
+    }
+
+    span:first-child { 
+        width: 60%; 
+        float: none;
+    }
+}
+
+.StatRow:first-child {
+    border-top: none;
+}
